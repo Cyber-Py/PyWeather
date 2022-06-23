@@ -1,0 +1,17 @@
+[tool.poetry]
+name = 'PyWeather'
+version = '0.1.0'
+description = 'Forecasting for any city. Returns the following info about the city: Weather, Temperature, Feels Like Temp, Visibility, Wind Speed, Wind Direction, Cloudiness, Timezone, Sunset and Sunset'
+authors = ['cyberpy01@gmail.com', 'leshuriken1@gmail.com']
+
+[tool.poetry.dependencies]
+python = '>=3.8.0,<3.9'
+numpy = '^1.22.2'
+requests = '^2.28.0'
+pytz = '^2022.1'
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ['poetry-core>=1.0.0']
+build-backend = 'poetry.core.masonry.api'
