@@ -1,7 +1,7 @@
 [tool.poetry]
 name = 'PyWeather'
 version = '0.1.0'
-description = 'Forecasting for any city. Returns the following info about the city: Weather, Temperature, Feels Like Temp, Visibility, Wind Speed, Wind Direction, Cloudiness, Timezone, Sunset and Sunset'
+description = 'Forecasting for any city. Returns the following info about the city: Weather, Temperature, Feels Like Temp, Visibility, Wind Speed, Wind Direction, Cloudiness, Timezone, Sunrise and Sunset'
 authors = ['cyberpy01@gmail.com', 'leshuriken1@gmail.com']
 
 [tool.poetry.dependencies]
