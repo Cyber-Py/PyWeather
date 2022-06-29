@@ -1,11 +1,14 @@
 def weather_forecasting():
+  '''
+  Forecasting for any city. Returns the following info about the city: Weather, Temperature, Feels Like Temp, Visibility, Wind Speed, Wind Direction, Cloudiness, Timezone, Sunrise and Sunset. Returns all the data in metric units
+  '''
   import datetime
   import requests 
   import pytz
   import os
   def clear():
     os.system('clear')
-  API_KEY = os.environ['API_KEY']
+  API_KEY = 'YOUR_API_KEY_HERE'
   while True:
     city = input('City\n>')
     ws = requests.get(f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric').json()
